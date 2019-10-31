@@ -802,7 +802,7 @@
 				DEVELOPMENT_TEAM = 5X5XSAZMKZ;
 				GCC_PREFIX_HEADER = $SRCROOT/QRcodeMachine/PrefixHeader.pch;
 				INFOPLIST_FILE = QRcodeMachine/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -825,7 +825,7 @@
 				DEVELOPMENT_TEAM = 5X5XSAZMKZ;
 				GCC_PREFIX_HEADER = $SRCROOT/QRcodeMachine/PrefixHeader.pch;
 				INFOPLIST_FILE = QRcodeMachine/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
