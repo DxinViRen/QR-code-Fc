@@ -1,0 +1,38 @@
+PODS:
+  - DZNEmptyDataSet (1.8.1)
+  - IGListKit (3.4.0):
+    - IGListKit/Default (= 3.4.0)
+  - IGListKit/Default (3.4.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.4.0)
+  - IQKeyboardManager (6.5.3)
+  - Masonry (1.1.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - DZNEmptyDataSet
+  - IGListKit
+  - IQKeyboardManager
+  - Masonry
+  - YYKit
+
+SPEC REPOS:
+  trunk:
+    - DZNEmptyDataSet
+    - IGListKit
+    - IQKeyboardManager
+    - Masonry
+    - YYKit
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
+  IQKeyboardManager: c2f901164d56807a35788483584d09fa69192e8e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 3bba5dc9c26db8399145003c0ee1101491e1f927
+
+COCOAPODS: 1.8.3

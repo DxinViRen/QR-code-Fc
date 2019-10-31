@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57596474FC23EDB7E244123F /* libPods-QRcodeMachine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2120595BDD2945BC9BD41B3C /* libPods-QRcodeMachine.a */; };
 		D80D2FAD236598F500C29221 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D2FAC236598F500C29221 /* AppDelegate.m */; };
-		D80D2FB0236598F500C29221 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D2FAF236598F500C29221 /* SceneDelegate.m */; };
 		D80D2FB3236598F500C29221 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D2FB2236598F500C29221 /* ViewController.m */; };
 		D80D2FB6236598F500C29221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80D2FB4236598F500C29221 /* Main.storyboard */; };
 		D80D2FB8236598F800C29221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80D2FB7236598F800C29221 /* Assets.xcassets */; };
@@ -16,6 +16,52 @@
 		D80D2FBE236598F800C29221 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D2FBD236598F800C29221 /* main.m */; };
 		D80D2FC8236598F800C29221 /* QRcodeMachineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D2FC7236598F800C29221 /* QRcodeMachineTests.m */; };
 		D80D2FD3236598F800C29221 /* QRcodeMachineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D2FD2236598F800C29221 /* QRcodeMachineUITests.m */; };
+		D80D2FE32365A2E000C29221 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D2FE22365A2E000C29221 /* MainViewController.m */; };
+		D80D2FEC2365A36600C29221 /* UIImage+QCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D2FE42365A36400C29221 /* UIImage+QCategory.m */; };
+		D80D2FED2365A36600C29221 /* NSArray+Adpa.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D2FE52365A36500C29221 /* NSArray+Adpa.m */; };
+		D80D2FEE2365A36600C29221 /* UIViewController+FixNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D2FE62365A36500C29221 /* UIViewController+FixNavigationBar.m */; };
+		D80D2FEF2365A36600C29221 /* UINavigationBar+DD_Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D2FE82365A36500C29221 /* UINavigationBar+DD_Alpha.m */; };
+		D80D2FF22365A3B300C29221 /* UIColor+QCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D2FF12365A3B200C29221 /* UIColor+QCategory.m */; };
+		D80D2FF52365A40700C29221 /* HomeMainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D2FF42365A40700C29221 /* HomeMainModel.m */; };
+		D80D2FFB2365A44A00C29221 /* Dx_RubSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D2FF92365A44900C29221 /* Dx_RubSectionController.m */; };
+		D80D2FFC2365A44A00C29221 /* SectionSeporModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D2FFA2365A44A00C29221 /* SectionSeporModel.m */; };
+		D80D30002365A49800C29221 /* MainCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D2FFF2365A49800C29221 /* MainCollectionViewCell.m */; };
+		D80D30032365A54B00C29221 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D30022365A54B00C29221 /* HomeViewController.m */; };
+		D80D30062365A5EE00C29221 /* Dx_qrNavigetionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D30052365A5EE00C29221 /* Dx_qrNavigetionVC.m */; };
+		D80D300A2365A8ED00C29221 /* HomeOptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D30082365A8ED00C29221 /* HomeOptionCell.m */; };
+		D80D300B2365A8ED00C29221 /* HomeOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D80D30092365A8ED00C29221 /* HomeOptionCell.xib */; };
+		D80D300E2366750500C29221 /* HoemMainOptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D300D2366750500C29221 /* HoemMainOptionCell.m */; };
+		D80D30112366779500C29221 /* QRHomeOpItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D30102366779500C29221 /* QRHomeOpItemView.m */; };
+		D8ABA3BF2366E1F000DBEE49 /* Qr_homeItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABA3BE2366E1F000DBEE49 /* Qr_homeItemCell.m */; };
+		D8ABA3C323671E0600DBEE49 /* QRHometopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABA3C123671E0600DBEE49 /* QRHometopCell.m */; };
+		D8ABA3C423671E0600DBEE49 /* QRHometopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8ABA3C223671E0600DBEE49 /* QRHometopCell.xib */; };
+		D8ABA3C72367314200DBEE49 /* QRFacManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABA3C62367314200DBEE49 /* QRFacManager.m */; };
+		D8ABA3CF2367BDA900DBEE49 /* WSLNativeScanTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABA3CC2367BDA800DBEE49 /* WSLNativeScanTool.m */; };
+		D8ABA3D02367BDA900DBEE49 /* WSLScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABA3CD2367BDA900DBEE49 /* WSLScanView.m */; };
+		D8ABA3D72367C64700DBEE49 /* WSLCreateQRCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABA3D52367C64600DBEE49 /* WSLCreateQRCodeController.m */; };
+		D8ABA3DA2367D8B000DBEE49 /* ScanResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABA3D92367D8B000DBEE49 /* ScanResultViewController.m */; };
+		D8ABA3DE2367DD8100DBEE49 /* QrShowReVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABA3DC2367DD8100DBEE49 /* QrShowReVC.m */; };
+		D8ABA3DF2367DD8100DBEE49 /* QrShowReVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8ABA3DD2367DD8100DBEE49 /* QrShowReVC.xib */; };
+		D8ABA3EB2367ECD600DBEE49 /* QRScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABA3EA2367ECD500DBEE49 /* QRScanViewController.m */; };
+		D8ABA3EF2368025000DBEE49 /* ScanURlReopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABA3ED2368025000DBEE49 /* ScanURlReopVC.m */; };
+		D8ABA3F02368025000DBEE49 /* ScanURlReopVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8ABA3EE2368025000DBEE49 /* ScanURlReopVC.xib */; };
+		D8ABA3FE2368529F00DBEE49 /* SearchUReTopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABA3FD2368529F00DBEE49 /* SearchUReTopCell.m */; };
+		D8ABA401236876A600DBEE49 /* SearchUreVCtopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABA400236876A500DBEE49 /* SearchUreVCtopCell.m */; };
+		D8ABA4052369087900DBEE49 /* TextGeneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABA4032369087900DBEE49 /* TextGeneVC.m */; };
+		D8ABA4062369087900DBEE49 /* TextGeneVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8ABA4042369087900DBEE49 /* TextGeneVC.xib */; };
+		D8ABA40A23690AAF00DBEE49 /* TextConInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABA40823690AAF00DBEE49 /* TextConInputCell.m */; };
+		D8ABA40B23690AAF00DBEE49 /* TextConInputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8ABA40923690AAF00DBEE49 /* TextConInputCell.xib */; };
+		D8ABA40E236951BA00DBEE49 /* QrShowImgVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABA40D236951BA00DBEE49 /* QrShowImgVC.m */; };
+		D8ABA4112369556E00DBEE49 /* QRShowQImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABA4102369556E00DBEE49 /* QRShowQImageCell.m */; };
+		D8ABA415236965E600DBEE49 /* QRWebAdressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABA413236965E600DBEE49 /* QRWebAdressViewController.m */; };
+		D8ABA416236965E600DBEE49 /* QRWebAdressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8ABA414236965E600DBEE49 /* QRWebAdressViewController.xib */; };
+		D8ABA41A2369728500DBEE49 /* QRWebInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABA4182369728500DBEE49 /* QRWebInputCell.m */; };
+		D8ABA4202369856300DBEE49 /* MKlectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8ABA41E2369856300DBEE49 /* MKlectionViewCell.xib */; };
+		D8ABA42423699CBE00DBEE49 /* QrNameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABA42223699CBE00DBEE49 /* QrNameCell.m */; };
+		D8ABA42523699CBE00DBEE49 /* QrNameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8ABA42323699CBE00DBEE49 /* QrNameCell.xib */; };
+		D8ABA4282369A27700DBEE49 /* QrNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABA4272369A27700DBEE49 /* QrNameViewController.m */; };
+		D8ABA42B2369BCF300DBEE49 /* QrNameBtnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABA42A2369BCF300DBEE49 /* QrNameBtnCell.m */; };
+		D8ABA46F236A6D3700DBEE49 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABA46D236A6D3600DBEE49 /* SceneDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +82,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2120595BDD2945BC9BD41B3C /* libPods-QRcodeMachine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QRcodeMachine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D77FB1F29833FA44EF0669 /* Pods-QRcodeMachine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRcodeMachine.debug.xcconfig"; path = "Target Support Files/Pods-QRcodeMachine/Pods-QRcodeMachine.debug.xcconfig"; sourceTree = "<group>"; };
+		B66B86760095A1A7325CDF81 /* Pods-QRcodeMachine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRcodeMachine.release.xcconfig"; path = "Target Support Files/Pods-QRcodeMachine/Pods-QRcodeMachine.release.xcconfig"; sourceTree = "<group>"; };
 		D80D2FA8236598F500C29221 /* QRcodeMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRcodeMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D80D2FAB236598F500C29221 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D80D2FAC236598F500C29221 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D80D2FAE236598F500C29221 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		D80D2FAF236598F500C29221 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		D80D2FB1236598F500C29221 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D80D2FB2236598F500C29221 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D80D2FB5236598F500C29221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +101,91 @@
 		D80D2FCE236598F800C29221 /* QRcodeMachineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRcodeMachineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D80D2FD2236598F800C29221 /* QRcodeMachineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRcodeMachineUITests.m; sourceTree = "<group>"; };
 		D80D2FD4236598F800C29221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D80D2FE023659AFB00C29221 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D80D2FE12365A2E000C29221 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D80D2FE22365A2E000C29221 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D80D2FE42365A36400C29221 /* UIImage+QCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QCategory.m"; sourceTree = "<group>"; };
+		D80D2FE52365A36500C29221 /* NSArray+Adpa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Adpa.m"; sourceTree = "<group>"; };
+		D80D2FE62365A36500C29221 /* UIViewController+FixNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FixNavigationBar.m"; sourceTree = "<group>"; };
+		D80D2FE72365A36500C29221 /* UIImage+QCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QCategory.h"; sourceTree = "<group>"; };
+		D80D2FE82365A36500C29221 /* UINavigationBar+DD_Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+DD_Alpha.m"; sourceTree = "<group>"; };
+		D80D2FE92365A36500C29221 /* UIViewController+FixNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FixNavigationBar.h"; sourceTree = "<group>"; };
+		D80D2FEA2365A36500C29221 /* NSArray+Adpa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Adpa.h"; sourceTree = "<group>"; };
+		D80D2FEB2365A36600C29221 /* UINavigationBar+DD_Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+DD_Alpha.h"; sourceTree = "<group>"; };
+		D80D2FF02365A3B200C29221 /* UIColor+QCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+QCategory.h"; sourceTree = "<group>"; };
+		D80D2FF12365A3B200C29221 /* UIColor+QCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+QCategory.m"; sourceTree = "<group>"; };
+		D80D2FF32365A40700C29221 /* HomeMainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeMainModel.h; sourceTree = "<group>"; };
+		D80D2FF42365A40700C29221 /* HomeMainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeMainModel.m; sourceTree = "<group>"; };
+		D80D2FF72365A44900C29221 /* SectionSeporModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionSeporModel.h; sourceTree = "<group>"; };
+		D80D2FF82365A44900C29221 /* Dx_RubSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dx_RubSectionController.h; sourceTree = "<group>"; };
+		D80D2FF92365A44900C29221 /* Dx_RubSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dx_RubSectionController.m; sourceTree = "<group>"; };
+		D80D2FFA2365A44A00C29221 /* SectionSeporModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionSeporModel.m; sourceTree = "<group>"; };
+		D80D2FFD2365A49700C29221 /* MainCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionViewCell.h; sourceTree = "<group>"; };
+		D80D2FFE2365A49800C29221 /* MainCellModeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCellModeProtocol.h; sourceTree = "<group>"; };
+		D80D2FFF2365A49800C29221 /* MainCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewCell.m; sourceTree = "<group>"; };
+		D80D30012365A54B00C29221 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		D80D30022365A54B00C29221 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D80D30042365A5EE00C29221 /* Dx_qrNavigetionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dx_qrNavigetionVC.h; sourceTree = "<group>"; };
+		D80D30052365A5EE00C29221 /* Dx_qrNavigetionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dx_qrNavigetionVC.m; sourceTree = "<group>"; };
+		D80D30072365A8ED00C29221 /* HomeOptionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeOptionCell.h; sourceTree = "<group>"; };
+		D80D30082365A8ED00C29221 /* HomeOptionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeOptionCell.m; sourceTree = "<group>"; };
+		D80D30092365A8ED00C29221 /* HomeOptionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeOptionCell.xib; sourceTree = "<group>"; };
+		D80D300C2366750500C29221 /* HoemMainOptionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoemMainOptionCell.h; sourceTree = "<group>"; };
+		D80D300D2366750500C29221 /* HoemMainOptionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoemMainOptionCell.m; sourceTree = "<group>"; };
+		D80D300F2366779500C29221 /* QRHomeOpItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRHomeOpItemView.h; sourceTree = "<group>"; };
+		D80D30102366779500C29221 /* QRHomeOpItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRHomeOpItemView.m; sourceTree = "<group>"; };
+		D8ABA3BD2366E1F000DBEE49 /* Qr_homeItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Qr_homeItemCell.h; sourceTree = "<group>"; };
+		D8ABA3BE2366E1F000DBEE49 /* Qr_homeItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Qr_homeItemCell.m; sourceTree = "<group>"; };
+		D8ABA3C023671E0600DBEE49 /* QRHometopCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRHometopCell.h; sourceTree = "<group>"; };
+		D8ABA3C123671E0600DBEE49 /* QRHometopCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRHometopCell.m; sourceTree = "<group>"; };
+		D8ABA3C223671E0600DBEE49 /* QRHometopCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QRHometopCell.xib; sourceTree = "<group>"; };
+		D8ABA3C52367314200DBEE49 /* QRFacManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRFacManager.h; sourceTree = "<group>"; };
+		D8ABA3C62367314200DBEE49 /* QRFacManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRFacManager.m; sourceTree = "<group>"; };
+		D8ABA3CB2367BDA800DBEE49 /* WSLScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLScanView.h; sourceTree = "<group>"; };
+		D8ABA3CC2367BDA800DBEE49 /* WSLNativeScanTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLNativeScanTool.m; sourceTree = "<group>"; };
+		D8ABA3CD2367BDA900DBEE49 /* WSLScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLScanView.m; sourceTree = "<group>"; };
+		D8ABA3CE2367BDA900DBEE49 /* WSLNativeScanTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLNativeScanTool.h; sourceTree = "<group>"; };
+		D8ABA3D52367C64600DBEE49 /* WSLCreateQRCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLCreateQRCodeController.m; sourceTree = "<group>"; };
+		D8ABA3D62367C64600DBEE49 /* WSLCreateQRCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLCreateQRCodeController.h; sourceTree = "<group>"; };
+		D8ABA3D82367D8B000DBEE49 /* ScanResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanResultViewController.h; sourceTree = "<group>"; };
+		D8ABA3D92367D8B000DBEE49 /* ScanResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanResultViewController.m; sourceTree = "<group>"; };
+		D8ABA3DB2367DD8100DBEE49 /* QrShowReVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QrShowReVC.h; sourceTree = "<group>"; };
+		D8ABA3DC2367DD8100DBEE49 /* QrShowReVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QrShowReVC.m; sourceTree = "<group>"; };
+		D8ABA3DD2367DD8100DBEE49 /* QrShowReVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QrShowReVC.xib; sourceTree = "<group>"; };
+		D8ABA3E92367ECD500DBEE49 /* QRScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRScanViewController.h; sourceTree = "<group>"; };
+		D8ABA3EA2367ECD500DBEE49 /* QRScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRScanViewController.m; sourceTree = "<group>"; };
+		D8ABA3EC2368025000DBEE49 /* ScanURlReopVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanURlReopVC.h; sourceTree = "<group>"; };
+		D8ABA3ED2368025000DBEE49 /* ScanURlReopVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanURlReopVC.m; sourceTree = "<group>"; };
+		D8ABA3EE2368025000DBEE49 /* ScanURlReopVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScanURlReopVC.xib; sourceTree = "<group>"; };
+		D8ABA3FC2368529F00DBEE49 /* SearchUReTopCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchUReTopCell.h; sourceTree = "<group>"; };
+		D8ABA3FD2368529F00DBEE49 /* SearchUReTopCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchUReTopCell.m; sourceTree = "<group>"; };
+		D8ABA3FF236876A500DBEE49 /* SearchUreVCtopCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchUreVCtopCell.h; sourceTree = "<group>"; };
+		D8ABA400236876A500DBEE49 /* SearchUreVCtopCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchUreVCtopCell.m; sourceTree = "<group>"; };
+		D8ABA4022369087900DBEE49 /* TextGeneVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextGeneVC.h; sourceTree = "<group>"; };
+		D8ABA4032369087900DBEE49 /* TextGeneVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextGeneVC.m; sourceTree = "<group>"; };
+		D8ABA4042369087900DBEE49 /* TextGeneVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextGeneVC.xib; sourceTree = "<group>"; };
+		D8ABA40723690AAF00DBEE49 /* TextConInputCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextConInputCell.h; sourceTree = "<group>"; };
+		D8ABA40823690AAF00DBEE49 /* TextConInputCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextConInputCell.m; sourceTree = "<group>"; };
+		D8ABA40923690AAF00DBEE49 /* TextConInputCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextConInputCell.xib; sourceTree = "<group>"; };
+		D8ABA40C236951BA00DBEE49 /* QrShowImgVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QrShowImgVC.h; sourceTree = "<group>"; };
+		D8ABA40D236951BA00DBEE49 /* QrShowImgVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QrShowImgVC.m; sourceTree = "<group>"; };
+		D8ABA40F2369556E00DBEE49 /* QRShowQImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRShowQImageCell.h; sourceTree = "<group>"; };
+		D8ABA4102369556E00DBEE49 /* QRShowQImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRShowQImageCell.m; sourceTree = "<group>"; };
+		D8ABA412236965E600DBEE49 /* QRWebAdressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRWebAdressViewController.h; sourceTree = "<group>"; };
+		D8ABA413236965E600DBEE49 /* QRWebAdressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRWebAdressViewController.m; sourceTree = "<group>"; };
+		D8ABA414236965E600DBEE49 /* QRWebAdressViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QRWebAdressViewController.xib; sourceTree = "<group>"; };
+		D8ABA4172369728500DBEE49 /* QRWebInputCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRWebInputCell.h; sourceTree = "<group>"; };
+		D8ABA4182369728500DBEE49 /* QRWebInputCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRWebInputCell.m; sourceTree = "<group>"; };
+		D8ABA41E2369856300DBEE49 /* MKlectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MKlectionViewCell.xib; sourceTree = "<group>"; };
+		D8ABA42123699CBE00DBEE49 /* QrNameCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QrNameCell.h; sourceTree = "<group>"; };
+		D8ABA42223699CBE00DBEE49 /* QrNameCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QrNameCell.m; sourceTree = "<group>"; };
+		D8ABA42323699CBE00DBEE49 /* QrNameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QrNameCell.xib; sourceTree = "<group>"; };
+		D8ABA4262369A27600DBEE49 /* QrNameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QrNameViewController.h; sourceTree = "<group>"; };
+		D8ABA4272369A27700DBEE49 /* QrNameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QrNameViewController.m; sourceTree = "<group>"; };
+		D8ABA4292369BCF300DBEE49 /* QrNameBtnCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QrNameBtnCell.h; sourceTree = "<group>"; };
+		D8ABA42A2369BCF300DBEE49 /* QrNameBtnCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QrNameBtnCell.m; sourceTree = "<group>"; };
+		D8ABA46D236A6D3600DBEE49 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D8ABA46E236A6D3700DBEE49 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +193,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57596474FC23EDB7E244123F /* libPods-QRcodeMachine.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +214,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11112D8E07439D64D2672C39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96D77FB1F29833FA44EF0669 /* Pods-QRcodeMachine.debug.xcconfig */,
+				B66B86760095A1A7325CDF81 /* Pods-QRcodeMachine.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8712EC384B0C8A3154ABCABA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2120595BDD2945BC9BD41B3C /* libPods-QRcodeMachine.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D80D2F9F236598F500C29221 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +238,8 @@
 				D80D2FC6236598F800C29221 /* QRcodeMachineTests */,
 				D80D2FD1236598F800C29221 /* QRcodeMachineUITests */,
 				D80D2FA9236598F500C29221 /* Products */,
+				11112D8E07439D64D2672C39 /* Pods */,
+				8712EC384B0C8A3154ABCABA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,17 +256,45 @@
 		D80D2FAA236598F500C29221 /* QRcodeMachine */ = {
 			isa = PBXGroup;
 			children = (
+				D8ABA3E02367E8AE00DBEE49 /* VC */,
+				D8ABA3D12367BDB300DBEE49 /* QRTool */,
+				D80D2FF62365A40F00C29221 /* IGList */,
+				D8ABA4B6236AC83E00DBEE49 /* Category */,
+				D8ABA40723690AAF00DBEE49 /* TextConInputCell.h */,
+				D8ABA40F2369556E00DBEE49 /* QRShowQImageCell.h */,
+				D8ABA4102369556E00DBEE49 /* QRShowQImageCell.m */,
+				D8ABA40823690AAF00DBEE49 /* TextConInputCell.m */,
+				D8ABA40923690AAF00DBEE49 /* TextConInputCell.xib */,
+				D8ABA3BD2366E1F000DBEE49 /* Qr_homeItemCell.h */,
+				D8ABA3BE2366E1F000DBEE49 /* Qr_homeItemCell.m */,
+				D8ABA3FC2368529F00DBEE49 /* SearchUReTopCell.h */,
+				D8ABA3FD2368529F00DBEE49 /* SearchUReTopCell.m */,
+				D8ABA3FF236876A500DBEE49 /* SearchUreVCtopCell.h */,
+				D8ABA400236876A500DBEE49 /* SearchUreVCtopCell.m */,
+				D80D2FE92365A36500C29221 /* UIViewController+FixNavigationBar.h */,
+				D80D2FE62365A36500C29221 /* UIViewController+FixNavigationBar.m */,
 				D80D2FAB236598F500C29221 /* AppDelegate.h */,
 				D80D2FAC236598F500C29221 /* AppDelegate.m */,
-				D80D2FAE236598F500C29221 /* SceneDelegate.h */,
-				D80D2FAF236598F500C29221 /* SceneDelegate.m */,
+				D8ABA3C52367314200DBEE49 /* QRFacManager.h */,
+				D8ABA3C62367314200DBEE49 /* QRFacManager.m */,
+				D8ABA3C023671E0600DBEE49 /* QRHometopCell.h */,
+				D8ABA3C123671E0600DBEE49 /* QRHometopCell.m */,
+				D8ABA3C223671E0600DBEE49 /* QRHometopCell.xib */,
 				D80D2FB1236598F500C29221 /* ViewController.h */,
 				D80D2FB2236598F500C29221 /* ViewController.m */,
+				D80D300C2366750500C29221 /* HoemMainOptionCell.h */,
+				D80D300D2366750500C29221 /* HoemMainOptionCell.m */,
+				D80D300F2366779500C29221 /* QRHomeOpItemView.h */,
+				D80D30102366779500C29221 /* QRHomeOpItemView.m */,
+				D80D30072365A8ED00C29221 /* HomeOptionCell.h */,
+				D80D30082365A8ED00C29221 /* HomeOptionCell.m */,
+				D80D30092365A8ED00C29221 /* HomeOptionCell.xib */,
 				D80D2FB4236598F500C29221 /* Main.storyboard */,
 				D80D2FB7236598F800C29221 /* Assets.xcassets */,
 				D80D2FB9236598F800C29221 /* LaunchScreen.storyboard */,
 				D80D2FBC236598F800C29221 /* Info.plist */,
 				D80D2FBD236598F800C29221 /* main.m */,
+				D80D2FE023659AFB00C29221 /* PrefixHeader.pch */,
 			);
 			path = QRcodeMachine;
 			sourceTree = "<group>";
@@ -137,6 +317,93 @@
 			path = QRcodeMachineUITests;
 			sourceTree = "<group>";
 		};
+		D80D2FF62365A40F00C29221 /* IGList */ = {
+			isa = PBXGroup;
+			children = (
+				D80D2FE12365A2E000C29221 /* MainViewController.h */,
+				D80D2FE22365A2E000C29221 /* MainViewController.m */,
+				D80D2FFE2365A49800C29221 /* MainCellModeProtocol.h */,
+				D80D2FFD2365A49700C29221 /* MainCollectionViewCell.h */,
+				D80D2FFF2365A49800C29221 /* MainCollectionViewCell.m */,
+				D80D2FF82365A44900C29221 /* Dx_RubSectionController.h */,
+				D80D2FF92365A44900C29221 /* Dx_RubSectionController.m */,
+				D80D2FF72365A44900C29221 /* SectionSeporModel.h */,
+				D80D2FFA2365A44A00C29221 /* SectionSeporModel.m */,
+				D80D2FF32365A40700C29221 /* HomeMainModel.h */,
+				D80D2FF42365A40700C29221 /* HomeMainModel.m */,
+			);
+			path = IGList;
+			sourceTree = "<group>";
+		};
+		D8ABA3D12367BDB300DBEE49 /* QRTool */ = {
+			isa = PBXGroup;
+			children = (
+				D8ABA3CE2367BDA900DBEE49 /* WSLNativeScanTool.h */,
+				D8ABA3CC2367BDA800DBEE49 /* WSLNativeScanTool.m */,
+				D8ABA3CB2367BDA800DBEE49 /* WSLScanView.h */,
+				D8ABA3CD2367BDA900DBEE49 /* WSLScanView.m */,
+			);
+			path = QRTool;
+			sourceTree = "<group>";
+		};
+		D8ABA3E02367E8AE00DBEE49 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				D8ABA46E236A6D3700DBEE49 /* SceneDelegate.h */,
+				D8ABA46D236A6D3600DBEE49 /* SceneDelegate.m */,
+				D8ABA3E92367ECD500DBEE49 /* QRScanViewController.h */,
+				D8ABA3EA2367ECD500DBEE49 /* QRScanViewController.m */,
+				D8ABA3D82367D8B000DBEE49 /* ScanResultViewController.h */,
+				D8ABA3D92367D8B000DBEE49 /* ScanResultViewController.m */,
+				D8ABA3EC2368025000DBEE49 /* ScanURlReopVC.h */,
+				D8ABA3ED2368025000DBEE49 /* ScanURlReopVC.m */,
+				D8ABA3EE2368025000DBEE49 /* ScanURlReopVC.xib */,
+				D8ABA3D62367C64600DBEE49 /* WSLCreateQRCodeController.h */,
+				D8ABA3D52367C64600DBEE49 /* WSLCreateQRCodeController.m */,
+				D8ABA3DD2367DD8100DBEE49 /* QrShowReVC.xib */,
+				D8ABA3DB2367DD8100DBEE49 /* QrShowReVC.h */,
+				D8ABA3DC2367DD8100DBEE49 /* QrShowReVC.m */,
+				D80D30042365A5EE00C29221 /* Dx_qrNavigetionVC.h */,
+				D80D30052365A5EE00C29221 /* Dx_qrNavigetionVC.m */,
+				D80D30012365A54B00C29221 /* HomeViewController.h */,
+				D80D30022365A54B00C29221 /* HomeViewController.m */,
+				D8ABA40C236951BA00DBEE49 /* QrShowImgVC.h */,
+				D8ABA40D236951BA00DBEE49 /* QrShowImgVC.m */,
+				D8ABA4022369087900DBEE49 /* TextGeneVC.h */,
+				D8ABA4032369087900DBEE49 /* TextGeneVC.m */,
+				D8ABA412236965E600DBEE49 /* QRWebAdressViewController.h */,
+				D8ABA413236965E600DBEE49 /* QRWebAdressViewController.m */,
+				D8ABA4262369A27600DBEE49 /* QrNameViewController.h */,
+				D8ABA4272369A27700DBEE49 /* QrNameViewController.m */,
+				D8ABA4292369BCF300DBEE49 /* QrNameBtnCell.h */,
+				D8ABA42A2369BCF300DBEE49 /* QrNameBtnCell.m */,
+				D8ABA42123699CBE00DBEE49 /* QrNameCell.h */,
+				D8ABA42223699CBE00DBEE49 /* QrNameCell.m */,
+				D8ABA42323699CBE00DBEE49 /* QrNameCell.xib */,
+				D8ABA4172369728500DBEE49 /* QRWebInputCell.h */,
+				D8ABA4182369728500DBEE49 /* QRWebInputCell.m */,
+				D8ABA41E2369856300DBEE49 /* MKlectionViewCell.xib */,
+				D8ABA414236965E600DBEE49 /* QRWebAdressViewController.xib */,
+				D8ABA4042369087900DBEE49 /* TextGeneVC.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		D8ABA4B6236AC83E00DBEE49 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D80D2FF02365A3B200C29221 /* UIColor+QCategory.h */,
+				D80D2FF12365A3B200C29221 /* UIColor+QCategory.m */,
+				D80D2FEA2365A36500C29221 /* NSArray+Adpa.h */,
+				D80D2FE52365A36500C29221 /* NSArray+Adpa.m */,
+				D80D2FE72365A36500C29221 /* UIImage+QCategory.h */,
+				D80D2FE42365A36400C29221 /* UIImage+QCategory.m */,
+				D80D2FEB2365A36600C29221 /* UINavigationBar+DD_Alpha.h */,
+				D80D2FE82365A36500C29221 /* UINavigationBar+DD_Alpha.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +411,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D80D2FD7236598F800C29221 /* Build configuration list for PBXNativeTarget "QRcodeMachine" */;
 			buildPhases = (
+				295C278D550411A4DC92C48C /* [CP] Check Pods Manifest.lock */,
 				D80D2FA4236598F500C29221 /* Sources */,
 				D80D2FA5236598F500C29221 /* Frameworks */,
 				D80D2FA6236598F500C29221 /* Resources */,
+				EA60D00DD9EC8A2CA1C1DE1F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,7 +509,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8ABA416236965E600DBEE49 /* QRWebAdressViewController.xib in Resources */,
+				D8ABA3C423671E0600DBEE49 /* QRHometopCell.xib in Resources */,
 				D80D2FBB236598F800C29221 /* LaunchScreen.storyboard in Resources */,
+				D8ABA42523699CBE00DBEE49 /* QrNameCell.xib in Resources */,
+				D8ABA3F02368025000DBEE49 /* ScanURlReopVC.xib in Resources */,
+				D80D300B2365A8ED00C29221 /* HomeOptionCell.xib in Resources */,
+				D8ABA40B23690AAF00DBEE49 /* TextConInputCell.xib in Resources */,
+				D8ABA4202369856300DBEE49 /* MKlectionViewCell.xib in Resources */,
+				D8ABA4062369087900DBEE49 /* TextGeneVC.xib in Resources */,
+				D8ABA3DF2367DD8100DBEE49 /* QrShowReVC.xib in Resources */,
 				D80D2FB8236598F800C29221 /* Assets.xcassets in Resources */,
 				D80D2FB6236598F500C29221 /* Main.storyboard in Resources */,
 			);
@@ -262,15 +540,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		295C278D550411A4DC92C48C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRcodeMachine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA60D00DD9EC8A2CA1C1DE1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRcodeMachine/Pods-QRcodeMachine-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRcodeMachine/Pods-QRcodeMachine-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QRcodeMachine/Pods-QRcodeMachine-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D80D2FA4236598F500C29221 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D80D30062365A5EE00C29221 /* Dx_qrNavigetionVC.m in Sources */,
+				D8ABA4112369556E00DBEE49 /* QRShowQImageCell.m in Sources */,
+				D80D2FEF2365A36600C29221 /* UINavigationBar+DD_Alpha.m in Sources */,
+				D8ABA40A23690AAF00DBEE49 /* TextConInputCell.m in Sources */,
+				D80D2FEC2365A36600C29221 /* UIImage+QCategory.m in Sources */,
+				D80D2FEE2365A36600C29221 /* UIViewController+FixNavigationBar.m in Sources */,
 				D80D2FB3236598F500C29221 /* ViewController.m in Sources */,
+				D8ABA3EF2368025000DBEE49 /* ScanURlReopVC.m in Sources */,
 				D80D2FAD236598F500C29221 /* AppDelegate.m in Sources */,
+				D8ABA42B2369BCF300DBEE49 /* QrNameBtnCell.m in Sources */,
+				D80D300E2366750500C29221 /* HoemMainOptionCell.m in Sources */,
+				D80D30032365A54B00C29221 /* HomeViewController.m in Sources */,
+				D8ABA3FE2368529F00DBEE49 /* SearchUReTopCell.m in Sources */,
+				D8ABA3D72367C64700DBEE49 /* WSLCreateQRCodeController.m in Sources */,
+				D8ABA4052369087900DBEE49 /* TextGeneVC.m in Sources */,
 				D80D2FBE236598F800C29221 /* main.m in Sources */,
-				D80D2FB0236598F500C29221 /* SceneDelegate.m in Sources */,
+				D80D2FED2365A36600C29221 /* NSArray+Adpa.m in Sources */,
+				D8ABA401236876A600DBEE49 /* SearchUreVCtopCell.m in Sources */,
+				D8ABA3DE2367DD8100DBEE49 /* QrShowReVC.m in Sources */,
+				D8ABA4282369A27700DBEE49 /* QrNameViewController.m in Sources */,
+				D80D2FE32365A2E000C29221 /* MainViewController.m in Sources */,
+				D8ABA40E236951BA00DBEE49 /* QrShowImgVC.m in Sources */,
+				D80D30002365A49800C29221 /* MainCollectionViewCell.m in Sources */,
+				D80D30112366779500C29221 /* QRHomeOpItemView.m in Sources */,
+				D8ABA3C72367314200DBEE49 /* QRFacManager.m in Sources */,
+				D80D2FFB2365A44A00C29221 /* Dx_RubSectionController.m in Sources */,
+				D80D2FFC2365A44A00C29221 /* SectionSeporModel.m in Sources */,
+				D8ABA46F236A6D3700DBEE49 /* SceneDelegate.m in Sources */,
+				D80D300A2365A8ED00C29221 /* HomeOptionCell.m in Sources */,
+				D8ABA42423699CBE00DBEE49 /* QrNameCell.m in Sources */,
+				D80D2FF22365A3B300C29221 /* UIColor+QCategory.m in Sources */,
+				D8ABA3EB2367ECD600DBEE49 /* QRScanViewController.m in Sources */,
+				D8ABA3C323671E0600DBEE49 /* QRHometopCell.m in Sources */,
+				D80D2FF52365A40700C29221 /* HomeMainModel.m in Sources */,
+				D8ABA41A2369728500DBEE49 /* QRWebInputCell.m in Sources */,
+				D8ABA3DA2367D8B000DBEE49 /* ScanResultViewController.m in Sources */,
+				D8ABA3BF2366E1F000DBEE49 /* Qr_homeItemCell.m in Sources */,
+				D8ABA415236965E600DBEE49 /* QRWebAdressViewController.m in Sources */,
+				D8ABA3D02367BDA900DBEE49 /* WSLScanView.m in Sources */,
+				D8ABA3CF2367BDA900DBEE49 /* WSLNativeScanTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,35 +793,47 @@
 		};
 		D80D2FD8236598F800C29221 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96D77FB1F29833FA44EF0669 /* Pods-QRcodeMachine.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5X5XSAZMKZ;
+				GCC_PREFIX_HEADER = $SRCROOT/QRcodeMachine/PrefixHeader.pch;
 				INFOPLIST_FILE = QRcodeMachine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "koryv-r.QRcodeMachine";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D80D2FD9236598F800C29221 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B66B86760095A1A7325CDF81 /* Pods-QRcodeMachine.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5X5XSAZMKZ;
+				GCC_PREFIX_HEADER = $SRCROOT/QRcodeMachine/PrefixHeader.pch;
 				INFOPLIST_FILE = QRcodeMachine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "koryv-r.QRcodeMachine";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  QRcodeMachine
+//
+//  Created by D.xin on 2019/10/27.
+//  Copyright © 2019 koryv. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Masonry/Masonry.h>
+#import <IGListKit.h>
+#import "UIColor+QCategory.h"
+#import "UIImage+QCategory.h"
+#import "NSArray+Adpa.h"
+#import "HomeMainModel.h"
+#import "SectionSeporModel.h"
+#import "Dx_RubSectionController.h"
+#import "MainViewController.h"
+#define MainColor [UIColor colorWithHexString:@"#1296db"]
+#import <DZNEmptyDataSet/UIScrollView+EmptyDataSet.h>
+#import "UINavigationBar+DD_Alpha.h"
+#define Scr_w  [UIScreen mainScreen].bounds.size.width
+#define Scr_h  [UIScreen mainScreen].bounds.size.height
+#import <AVFoundation/AVFoundation.h>
+#import <YYLabel.h>
+#import "QRFacManager.h"
+#import <IQKeyboardManager/IQKeyboardManager.h>
+#endif /* PrefixHeader_pch */

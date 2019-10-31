@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  HomeViewController.h
 //  QRcodeMachine
 //
 //  Created by D.xin on 2019/10/27.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
+@interface HomeViewController : MainViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
